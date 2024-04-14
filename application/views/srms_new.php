@@ -10,6 +10,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+	<h1 align="center">Welcome to CodeIgniter!</h1>
 </body>
 </html>

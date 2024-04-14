@@ -9,11 +9,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-	<a href="<?php echo base_url('index.php/srms/new_rec')?>" class="btn btn-success">New Record</a>
+	<h2>Record in CodeIgniter!</h2>
+	<a href="<?php echo base_url('index.php/srms/new_rec')?>" class="btn btn-success">New Record</a><br><br>
 	<table class="table table-bordered table-striped">
 		<tr>
-			<th>SEQ</th>
+			<th>SEQ</th> 
 			<th>STUDENT ID</th>
 			<th>LASTNAME</th>
 			<th>FIRSTNAME</th>
@@ -29,6 +29,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		echo '<td>'.$student['lname'].'</td>';
 		echo '<td>'.$student['fname'].'</td>';
 		echo '<td>'.$student['mname'].'</td>';
+		echo '<td align="center">'.'<a href="edit.php?id='.$student->$student_id.'
+		"class="btn btn-secondary"
+		" style="margin-left: 5px;">Edit</a>'.'</td>';
 		echo '</tr>';
 		$counter++;
 	 }
@@ -36,5 +39,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	?>
 	</table>
 
-</body>
+</body>	
 </html>
