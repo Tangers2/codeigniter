@@ -24,8 +24,8 @@ class Srms extends CI_Controller {
 		$results = $this->db->query($sql);
 		$data['students'] = $results->result_array();
 		$this->load->view('Srms_main', $data);
+		
 	}
-	
 	public function new_rec()
 	{
 		$this->load->view('Srms_new');
