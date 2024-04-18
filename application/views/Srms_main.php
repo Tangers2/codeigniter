@@ -19,7 +19,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<th>FIRSTNAME</th>
 			<th>MIDDLENAME</th>
 			<th>ACTION</th>
-			<th>sample</th>
 		</tr>
 	<?php
 	 $counter = 1;
