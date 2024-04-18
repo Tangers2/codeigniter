@@ -31,7 +31,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		echo '<td>'.$student['mname'].'</td>';
 		echo '<td align="center">'.'<a href="edit.php?id= $student->$student_id"
 		class="btn btn-secondary"
-		" style="margin-left: 5px;">Edit</a>'.'</td>';
+		" style="margin-left: 5px;">Edit</a>'.
+		'<a href="delete.php?id= $student -> stud_id" class="btn btn-danger" onclick="return confirm(\'Are you sure you want to delete this data?\')" style="margin-left: 5px;">
+		DELETE</a>'.'</td>';
+
 		echo '</tr>';
 		$counter++;
 	 }

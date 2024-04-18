@@ -30,5 +30,9 @@ class Srms extends CI_Controller {
 	{
 		$this->load->view('Srms_new');
 	}
+	public function delete_file($Srms_main)
+	{
+		$this->load->view('del_main');
+	}
 
 }
