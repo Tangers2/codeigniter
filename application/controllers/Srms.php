@@ -30,8 +30,5 @@ class Srms extends CI_Controller {
 	{
 		$this->load->view('Srms_new');
 	}
-	public function new_rec()
-	{
-		$this->load->view('Srms_new');
-	}
+
 }
