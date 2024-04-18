@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		echo '<tr>';
 		echo '<td>'.$counter.'</td>';
 		echo '<td>'.$student['student_id'].'</td>';
-		echo '<td>'.$student['lname'].'</td>';	
+		echo '<td>'.$student['lname'].'</td>';
 		echo '<td>'.$student['fname'].'</td>';
 		echo '<td>'.$student['mname'].'</td>';
 		echo '<td align="center">'.'<a href="edit.php?id= $student->$student_id"
@@ -35,7 +35,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		echo '</tr>';
 		$counter++;
 	 }
-
 	?>
 	</table>
 
